@@ -2,7 +2,7 @@
 **Pre-owned EV valuation (regression) and demand prediction (classification)**
 
 ## 1. Data
-No raw feed was supplied, so a synthetic dataset of 620 EV listings was generated (`ecodrive_raw_dataset.csv`). It reproduces the issues in the brief: 2–6 % missing values per column, 6 odometer readings of 9,999,999 km, 8 inflated prices (3–6× normal), 3 charging-speed sensor glitches, text categoricals and mixed scales. Replace Section 0 of the notebook with `pd.read_csv(...)` to run on real data.
+No raw feed was supplied, so a synthetic dataset of 620 EV listings was generated. It reproduces the issues in the brief: 2–6 % missing values per column, 6 odometer readings of 9,999,999 km, 8 inflated prices (3–6× normal), 3 charging-speed sensor glitches, text categoricals and mixed scales. Replace Section 0 of the notebook with `pd.read_csv(...)` to run on real data.
 
 ## 2. Pipeline
 | Module | What was done |
